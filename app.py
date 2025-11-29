@@ -6,17 +6,22 @@ from transformers import pipeline
 # -----------------------------
 
 # Use a tiny model so it fits on Streamlit Cloud
-MODEL_NAME = "sshleifer/tiny-gpt2"
+MODEL_NAME = "google/gemma-2b-it"
+
+import os
+
+HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
 
 @st.cache_resource
 def load_model():
-    # We only use the high-level pipeline API – no AutoTokenizer imports
     text_gen = pipeline(
         "text-generation",
         model=MODEL_NAME,
-        max_new_tokens=128,
-        do_sample=True,
-        temperature=0.7,
+        token=HF_TOKEN,
+        torch_dtype="auto",
+        device_map="auto",
+        max_new_tokens=256,
+        temperature=0.4,
     )
     return text_gen
 
@@ -169,3 +174,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
