@@ -1,0 +1,18 @@
+﻿AI stands for Artificial Intelligence. It refers to the ability of machines or computer programs to perform tasks that normally require human intelligence.
+Some examples of these tasks include:
+* Understanding language (like chatting with you right now)
+* Recognizing images or faces
+* Making decisions
+* Solving problems
+* Learning from experience
+AI systems learn from data. The more data they receive, the better they can become at their tasks. For example, an AI model that looks at thousands of pictures of cats can eventually learn how to identify a cat in a new picture.
+There are different types of AI:
+1. Narrow AI
+This type of AI does one specific task well. Examples: voice assistants, spam filters, translation apps.
+2. General AI
+This type (not fully developed yet) would be able to think and learn like a human and handle many tasks.
+3. Superintelligent AI
+A future idea where AI could become smarter than humans in every way.
+AI is used in many fields, such as healthcare, education, banking, transportation, and entertainment.
+In simple terms:
+AI helps machines learn, think, and act smarter.

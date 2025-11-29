@@ -1,0 +1,14 @@
+﻿GenAI stands for Generative Artificial Intelligence. It is a type of AI that can create new content instead of just analyzing or recognizing existing information.
+This content can include:
+* Text (like essays, stories, or answers)
+* Images (like art or photos)
+* Audio (like music or voice)
+* Video
+* Code
+Generative AI works by learning patterns from large amounts of data and then using that knowledge to produce new outputs. For example, if a GenAI model is trained on millions of sentences, it can generate new sentences that sound natural and meaningful.
+Some popular examples of Generative AI tools are:
+* ChatGPT for text
+* DALL-E or Midjourney for images
+* GitHub Copilot for code
+In short:
+Generative AI is a technology that creates new content by learning from existing data.
